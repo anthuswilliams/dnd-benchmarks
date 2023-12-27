@@ -1,0 +1,89 @@
+{
+    "character_name": "Lozildilk",
+    "class": "Warlock",
+    "subclass": null,
+    "level": 1,
+    "background": "House Agent (Phiarlan)",
+    "race": "Kalashtar",
+    "alignment": null,
+    "experience_points": 0,
+    "max_hit_points": 12,
+    "abilities": {
+        "strength": 9,
+        "dexterity": 16,
+        "constitution": 10,
+        "intelligence": 12,
+        "wisdom": 16,
+        "charisma": 13
+    },
+    "expertise": [],
+    "proficiencies": [
+        "Bagpipes",
+        "Arcana",
+        "Persuasion",
+        "Investigation",
+        "Wisdom Saving Throws",
+        "Simple Weapons",
+        "Light Armor",
+        "Charisma Saving Throws",
+        "Disguise Kit"
+    ],
+    "languages": [
+        "Quori",
+        "Vedalken",
+        "Common"
+    ],
+    "equipment": [
+        "Little Bag of Sand",
+        "Crossbow, light",
+        "Clothes, Fine",
+        "Component Pouch",
+        "Signet Ring",
+        "Dagger",
+        "Leather",
+        "Ink (1 ounce bottle)",
+        "Ink Pen",
+        "Parchment (one sheet)",
+        "Crossbow Bolts",
+        "Backpack",
+        "Mace",
+        "Small Knife",
+        "Book"
+    ],
+    "currency": {
+        "cp": 0,
+        "sp": 0,
+        "gp": 20,
+        "ep": 0,
+        "pp": 0
+    },
+    "class_features": [
+        "Otherworldly Patron",
+        "Gift of the Sea",
+        "Pact Magic",
+        "Proficiencies",
+        "Expanded Spell List",
+        "Hit Points",
+        "Tentacle of the Deeps"
+    ],
+    "spells": [],
+    "racial_traits": [
+        "Languages",
+        "Speed",
+        "Alignment",
+        "Mind Link",
+        "Size",
+        "Dual Mind",
+        "Age",
+        "Mental Discipline",
+        "Ability Score Increase",
+        "Severed from Dreams"
+    ],
+    "personality_traits": {
+        "personalityTraits": "I love to share trivia about my house\u2019s business.\nI represent my house and take pride in my looks.",
+        "ideals": "Power. I want to ensure the prosperity of my house and wield its power myself. (Evil)",
+        "bonds": "Someone I love was killed by a rival faction within my house, and I will have revenge.",
+        "flaws": "I\u2019m fixated on following official protocols.",
+        "appearance": null
+    }
+}

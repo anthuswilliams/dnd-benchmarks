@@ -1,0 +1,105 @@
+{
+    "character_name": "Geoffry Carde",
+    "class": "Rogue",
+    "subclass": null,
+    "level": 1,
+    "background": "Entertainer",
+    "race": "Forest Gnome",
+    "alignment": null,
+    "experience_points": 0,
+    "max_hit_points": 12,
+    "abilities": {
+        "strength": 11,
+        "dexterity": 18,
+        "constitution": 12,
+        "intelligence": 10,
+        "wisdom": 14,
+        "charisma": 11
+    },
+    "expertise": [
+        "Perception",
+        "Sleight of Hand"
+    ],
+    "proficiencies": [
+        "Dexterity Saving Throws",
+        "Shortsword",
+        "Sleight of Hand",
+        "Performance",
+        "Tantan",
+        "Thieves' Tools",
+        "Investigation",
+        "Insight",
+        "Rapier",
+        "Intelligence Saving Throws",
+        "Simple Weapons",
+        "Light Armor",
+        "Crossbow, Hand",
+        "Perception",
+        "Acrobatics",
+        "Disguise Kit",
+        "Longsword"
+    ],
+    "languages": [
+        "Thieves\u2019 Cant",
+        "Gnomish",
+        "Common"
+    ],
+    "equipment": [
+        "Lantern, Hooded",
+        "Candle",
+        "Rapier",
+        "Backpack",
+        "Bell",
+        "String",
+        "Hammer",
+        "Shortbow",
+        "Leather",
+        "Rations (1 day)",
+        "Tinderbox",
+        "Dagger",
+        "Arrows",
+        "Ball Bearings (bag of 1,000)",
+        "Piton",
+        "Rope, Hempen (50 feet)",
+        "Waterskin",
+        "Thieves' Tools",
+        "Clothes, Costume",
+        "Crowbar",
+        "Oil (flask)"
+    ],
+    "currency": {
+        "cp": 0,
+        "sp": 0,
+        "gp": 15,
+        "ep": 0,
+        "pp": 0
+    },
+    "class_features": [
+        "Thieves\u2019 Cant",
+        "Sneak Attack",
+        "Proficiencies",
+        "Expertise",
+        "Hit Points"
+    ],
+    "spells": [
+        "Minor Illusion"
+    ],
+    "racial_traits": [
+        "Languages",
+        "Speed",
+        "Size",
+        "Darkvision",
+        "Gnome Cunning",
+        "Age",
+        "Speak with Small Beasts",
+        "Ability Score Increase",
+        "Natural Illusionist"
+    ],
+    "personality_traits": {
+        "personalityTraits": "I\u2019m a hopeless romantic, always searching for that \u201cspecial someone.\u201d\nI\u2019ll settle for nothing less than perfection.",
+        "ideals": null,
+        "bonds": "I want to be famous, whatever it takes.\nI want to be famous, whatever it takes.",
+        "flaws": "A scandal prevents me from ever going home again. That kind of trouble seems to follow me around.",
+        "appearance": null
+    }
+}

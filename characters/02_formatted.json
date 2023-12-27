@@ -1,0 +1,76 @@
+{
+    "character_name": "Vortex",
+    "class": "Sorcerer",
+    "subclass": null,
+    "level": 1,
+    "background": "Noble",
+    "race": "Air Genasi",
+    "alignment": null,
+    "experience_points": 0,
+    "max_hit_points": 6,
+    "abilities": {
+        "strength": 8,
+        "dexterity": 10,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 14,
+        "charisma": 15
+    },
+    "expertise": [],
+    "proficiencies": [
+        "Deception",
+        "Dart",
+        "History",
+        "Constitution Saving Throws",
+        "Dagger",
+        "Persuasion",
+        "Sling",
+        "Playing Card Set",
+        "Quarterstaff",
+        "Perception",
+        "Charisma Saving Throws",
+        "Crossbow, Light"
+    ],
+    "languages": [
+        "Abyssal",
+        "Giant",
+        "Infernal",
+        "Primordial"
+    ],
+    "equipment": [],
+    "currency": {
+        "cp": 0,
+        "sp": 0,
+        "gp": 0,
+        "ep": 0,
+        "pp": 0
+    },
+    "class_features": [
+        "Wind Speaker",
+        "Spellcasting",
+        "Tempestuous Magic",
+        "Proficiencies",
+        "Sorcerous Origin",
+        "Hit Points"
+    ],
+    "spells": [
+        "Levitate"
+    ],
+    "racial_traits": [
+        "Languages",
+        "Speed",
+        "Alignment",
+        "Size",
+        "Mingle with the Wind",
+        "Age",
+        "Unending Breath",
+        "Ability Score Increase"
+    ],
+    "personality_traits": {
+        "personalityTraits": "My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world.\nI take great pains to always look my best and follow the latest fashions.",
+        "ideals": "Independence. I must prove that I can handle myself without the coddling of my family. (Chaotic)",
+        "bonds": "I will face any challenge to win the approval of my family.",
+        "flaws": "In fact, the world does revolve around me.",
+        "appearance": null
+    }
+}
