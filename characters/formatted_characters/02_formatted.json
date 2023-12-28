@@ -18,24 +18,24 @@
     },
     "expertise": [],
     "proficiencies": [
-        "Constitution Saving Throws",
         "Perception",
-        "Charisma Saving Throws",
-        "Sling",
-        "Quarterstaff",
-        "Deception",
         "Persuasion",
-        "Playing Card Set",
+        "Quarterstaff",
         "Dart",
-        "Crossbow, Light",
+        "Deception",
+        "Constitution Saving Throws",
         "Dagger",
+        "Playing Card Set",
+        "Crossbow, Light",
+        "Sling",
+        "Charisma Saving Throws",
         "History"
     ],
     "languages": [
+        "Giant",
         "Primordial",
         "Abyssal",
-        "Infernal",
-        "Giant"
+        "Infernal"
     ],
     "equipment": [],
     "currency": {
@@ -47,23 +47,23 @@
     },
     "class_features": [
         "Tempestuous Magic - Starting at 1st level, you can use a bonus action on your turn to cause whirling gusts of elemental air to briefly surround you, immediately before or after you cast a spell of 1st level or higher. Doing so allows you to fly up to 10 feet without provoking opportunity attacks.",
+        "Wind Speaker - The arcane magic you command is infused with elemental air. You can speak, read, and write Primordial. Knowing this language allows you to understand and be understood by those who speak its dialects: Aquan, Auran, Ignan, and Terran.",
         "Spellcasting - An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See Spells Rules for the general rules of spellcasting and the Spells Listing for the sorcerer spell list. Cantrips At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table. Spell Slots The Sorcerer table shows how many spell slots you have to cast your sorcerer spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest. For example, if you know the 1st-level spell burning hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot. Spells Known of 1st Level and Higher You know two 1st-level spells of your choice from the sorcerer spell list. The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level. Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots. Spellcasting Ability Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one. Spell save DC = 8 + your proficiency bonus + your Charisma modifier Spell attack modifier = your proficiency bonus + your Charisma modifier Spellcasting Focus You can use an arcane focus (see the Adventuring Gear section) as a spellcasting focus for your sorcerer spells.",
-        "Sorcerous Origin - Choose a sorcerous origin, which describes the source of your innate magical power: Draconic Bloodline, detailed at the end of the class description, or one from another source. Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.",
-        "Wind Speaker - The arcane magic you command is infused with elemental air. You can speak, read, and write Primordial. Knowing this language allows you to understand and be understood by those who speak its dialects: Aquan, Auran, Ignan, and Terran."
+        "Sorcerous Origin - Choose a sorcerous origin, which describes the source of your innate magical power: Draconic Bloodline, detailed at the end of the class description, or one from another source. Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level."
     ],
     "spells": [
         "Levitate - One creature or loose object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected. The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell's range. When the spell ends, the target floats gently to the ground if it is still aloft."
     ],
     "racial_traits": [
+        "Unending Breath - You can hold your breath indefinitely while you're not incapacitated.",
         "Languages - You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.",
-        "Age - Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years.",
         "Mingle with the Wind - You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.",
-        "Speed - Your base walking speed is 30 feet.",
-        "Alignment - Independent and self-reliant, genasi tend toward a neutral alignment.",
-        "Ability Score Increase - Your Constitution score increases by 2.",
         "Ability Score Increase - Your Dexterity score increases by 1.",
+        "Alignment - Independent and self-reliant, genasi tend toward a neutral alignment.",
         "Size - Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium.",
-        "Unending Breath - You can hold your breath indefinitely while you're not incapacitated."
+        "Ability Score Increase - Your Constitution score increases by 2.",
+        "Speed - Your base walking speed is 30 feet.",
+        "Age - Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years."
     ],
     "personality_traits": {
         "personalityTraits": "My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world. I take great pains to always look my best and follow the latest fashions.",

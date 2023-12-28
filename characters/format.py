@@ -135,6 +135,7 @@ def convert_file(input_file, output_file):
         with open(output_file, 'w') as w:
             w.write(output_content)
 
-file_list = glob.glob("[0-9][0-9].json")
+file_list = glob.glob("dndbeyond_format/[0-9][0-9].json")
 for file in file_list:
-    convert_file(file, file.replace(".json", "_formatted.json"))
+    filename = file.split("/")[-1]
+    convert_file(file, f"formatted_characters/{filename.replace(".json", "_formatted.json")}")
