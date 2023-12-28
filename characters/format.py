@@ -113,6 +113,7 @@ def format_output_file(input):
     # Replace Unicode characters and newlines
     cleaned_input = re.sub(r"\\u201[0-9a-z]{1}", "'", input)
     cleaned_input = re.sub(r"\\n", " ", cleaned_input)
+    cleaned_input = re.sub(r"\\r", "", cleaned_input)
 
     # Remove html tags
     soup = BeautifulSoup(cleaned_input, "html.parser")
