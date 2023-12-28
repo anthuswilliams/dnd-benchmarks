@@ -50,7 +50,7 @@ def get_racial_traits(input):
     """
     racial_trait_list = set()
     for trait in input["race"]["racialTraits"]:
-        racial_trait_list.add(f"{trait["definition"]["name"]} - {trait["definition"]["description"]}")
+        racial_trait_list.add(f'{trait["definition"]["name"]} - {trait["definition"]["description"]}')
     return list(racial_trait_list)
 
 def get_equipment(input):
@@ -72,7 +72,7 @@ def get_class_features(input):
         if feature["definition"]["name"] in ("Hit Points", "Proficiencies"):
             continue
         if feature["definition"]["requiredLevel"] <= input["classes"][0]["level"]:
-            class_feature_list.add(f"{feature["definition"]["name"]} - {feature["definition"]["description"]}")
+            class_feature_list.add(f'{feature["definition"]["name"]} - {feature["definition"]["description"]}')
     return list(class_feature_list)
 
 def get_spell_list(input):
@@ -87,7 +87,7 @@ def get_spell_list(input):
         try:
             for spell in input["spells"][check]:
                 try:
-                    spell_list.add(f"{spell["definition"]["name"]} - {spell["definition"]["description"]}")
+                    spell_list.add(f'{spell["definition"]["name"]} - {spell["definition"]["description"]}')
                 except:
                     pass
         except:
@@ -138,4 +138,4 @@ def convert_file(input_file, output_file):
 file_list = glob.glob("dndbeyond_format/[0-9][0-9].json")
 for file in file_list:
     filename = file.split("/")[-1]
-    convert_file(file, f"formatted_characters/{filename.replace(".json", "_formatted.json")}")
+    convert_file(file, f'formatted_characters/{filename.replace(".json", "_formatted.json")}')
