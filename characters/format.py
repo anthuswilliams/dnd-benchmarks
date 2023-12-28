@@ -1,5 +1,7 @@
 import json
 import glob
+import re 
+from bs4 import BeautifulSoup
 
 def convert_json(input):
     """
@@ -12,7 +14,6 @@ def convert_json(input):
     Returns dict
     """
     data = input["data"]
-    # print(data["classes"])
     ret = {
         "character_name": data["name"],
         "class": data["classes"][0]["definition"]["name"],
@@ -49,7 +50,7 @@ def get_racial_traits(input):
     """
     racial_trait_list = set()
     for trait in input["race"]["racialTraits"]:
-        racial_trait_list.add(trait["definition"]["name"])
+        racial_trait_list.add(f"{trait["definition"]["name"]} - {trait["definition"]["description"]}")
     return list(racial_trait_list)
 
 def get_equipment(input):
@@ -69,7 +70,7 @@ def get_class_features(input):
     class_feature_list = set()
     for feature in input["classes"][0]["classFeatures"]:
         if feature["definition"]["requiredLevel"] <= input["classes"][0]["level"]:
-            class_feature_list.add(feature["definition"]["name"])
+            class_feature_list.add(f"{feature["definition"]["name"]} - {feature["definition"]["description"]}")
     return list(class_feature_list)
 
 def get_spell_list(input):
@@ -81,11 +82,10 @@ def get_spell_list(input):
     check_list = ["class", "race", "background", "item", "feat"]
 
     for check in check_list:
-        print(check)
         try:
             for spell in input["spells"][check]:
                 try:
-                    spell_list.add(spell["definition"]["name"])
+                    spell_list.add(f"{spell["definition"]["name"]} - {spell["definition"]["description"]}")
                 except:
                     pass
         except:
@@ -105,15 +105,34 @@ def get_abilities(input, type):
             if skill["type"] == type:
                 proficiency_list.add(skill["friendlySubtypeName"])
     return list(proficiency_list)
-    
+
+def format_output_file(input):
+    """
+    Removed unicode and HTML tags from the output file.
+    """
+    # Replace Unicode characters and newlines
+    cleaned_input = re.sub(r"\\u201[0-9a-z]{1}", "'", input)
+    cleaned_input = re.sub(r"\\n", " ", cleaned_input)
+
+    # Remove html tags
+    soup = BeautifulSoup(cleaned_input, "html.parser")
+    clean_content = soup.get_text()
+
+    return clean_content
+
+
 def convert_file(input_file, output_file):
     with open(input_file, 'r') as fh:
         input_dict = json.loads(fh.read())
         output_dict = convert_json(input_dict)
+
+        content = json.dumps(output_dict)
+
+        output_content = format_output_file(content)
+
         with open(output_file, 'w') as w:
-            w.write(json.dumps(output_dict))
+            w.write(output_content)
 
 file_list = glob.glob("[0-9][0-9].json")
-print(file_list)
 for file in file_list:
     convert_file(file, file.replace(".json", "_formatted.json"))

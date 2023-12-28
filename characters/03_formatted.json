@@ -18,37 +18,37 @@
     },
     "expertise": [],
     "proficiencies": [
-        "Bagpipes",
         "Arcana",
-        "Persuasion",
-        "Investigation",
-        "Wisdom Saving Throws",
-        "Simple Weapons",
         "Light Armor",
+        "Bagpipes",
+        "Simple Weapons",
         "Charisma Saving Throws",
-        "Disguise Kit"
+        "Persuasion",
+        "Disguise Kit",
+        "Wisdom Saving Throws",
+        "Investigation"
     ],
     "languages": [
+        "Common",
         "Quori",
-        "Vedalken",
-        "Common"
+        "Vedalken"
     ],
     "equipment": [
         "Little Bag of Sand",
-        "Crossbow, light",
-        "Clothes, Fine",
         "Component Pouch",
-        "Signet Ring",
+        "Crossbow Bolts",
+        "Crossbow, light",
+        "Backpack",
+        "Ink Pen",
+        "Book",
         "Dagger",
         "Leather",
-        "Ink (1 ounce bottle)",
-        "Ink Pen",
-        "Parchment (one sheet)",
-        "Crossbow Bolts",
-        "Backpack",
-        "Mace",
+        "Clothes, Fine",
         "Small Knife",
-        "Book"
+        "Ink (1 ounce bottle)",
+        "Mace",
+        "Parchment (one sheet)",
+        "Signet Ring"
     ],
     "currency": {
         "cp": 0,
@@ -58,32 +58,32 @@
         "pp": 0
     },
     "class_features": [
-        "Otherworldly Patron",
-        "Gift of the Sea",
-        "Pact Magic",
-        "Proficiencies",
-        "Expanded Spell List",
-        "Hit Points",
-        "Tentacle of the Deeps"
+        "Otherworldly Patron - At 1st level, you have struck a bargain with an otherworldly being of your choice: the Fiend, which is detailed at the end of the class description, or one from another source. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.",
+        "Tentacle of the Deeps - 1st-level Fathomless feature \r You can magically summon a spectral tentacle that strikes at your foes. As a bonus action, you create a 10-foot-long tentacle at a point you can see within 60 feet of you. The tentacle lasts for 1 minute or until you use this feature to create another tentacle.\r When you create the tentacle, you can make a melee spell attack against one creature within 10 feet of it. On a hit, the target takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn. When you reach 10th level in this class, the damage increases to 2d8.\r As a bonus action on your turn, you can move the tentacle up to 30 feet and repeat the attack. You can summon the tentacle a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "Proficiencies - Armor: Light armorWeapons: Simple weaponsTools: NoneSaving Throws: Wisdom, CharismaSkills: Choose two skills from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion",
+        "Expanded Spell List - 1st-level Fathomless feature \r The Fathomless lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\r Fathomless Expanded Spells\r \r \r \r Spell Level\r Spells\r \r \r \r \r 1st\r  create or destroy water, thunderwave\r \r \r 2nd\r   gust of wind, silence\r \r \r 3rd\r   lightning bolt, sleet storm\r \r \r 4th\r   control water, summon elemental (water only; a spell in chapter 3)\r \r \r 5th\r   Bigby's hand (appears as a tentacle), cone of cold\r \r \r ",
+        "Gift of the Sea - 1st-level Fathomless feature \r You gain a swimming speed of 40 feet, and you can breathe underwater.",
+        "Hit Points - Hit Dice: 1d8 per warlock levelHit Points at 1st Level: 8 + your Constitution modifierHit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per warlock level after 1st",
+        "Pact Magic - Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See Spells Rules for the general rules of spellcasting and the Spells Listing for the warlock spell list.\r Cantrips\r You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.\r Spell Slots\r The Warlock table shows how many spell slots you have to cast your warlock spells of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended Pact Magic spell slots when you finish a short or long rest.\r For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 3rd-level spell.\r Spells Known of 1st Level and Higher\r At 1st level, you know two 1st-level spells of your choice from the warlock spell list.\r The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.\r Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\r Spellcasting Ability\r Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\r Spell save DC = 8 + your proficiency bonus + your Charisma modifier\r Spell attack modifier = your proficiency bonus + your Charisma modifier\r Spellcasting Focus\r You can use an arcane focus (see the Adventuring Gear section) as a spellcasting focus for your warlock spells."
     ],
     "spells": [],
     "racial_traits": [
-        "Languages",
-        "Speed",
-        "Alignment",
-        "Mind Link",
-        "Size",
-        "Dual Mind",
-        "Age",
-        "Mental Discipline",
-        "Ability Score Increase",
-        "Severed from Dreams"
+        "Speed - Your base walking speed is 30 feet.",
+        "Age - Kalashtar mature and age at the same rate as humans.",
+        "Languages - You can speak, read, and write Common, Quori, and one other language of your choice.",
+        "Dual Mind - You have advantage on all Wisdom saving throws.",
+        "Size - Your size is Medium. To set your height and weight randomly, start with rolling a size modifier:\r Size modifier = 2d6\r Height = 5 feet + 4 inches + your size modifier in inches\r Weight in pounds = 110 + (1d6 × your size modifier)",
+        "Mental Discipline - You have resistance to psychic damage.",
+        "Mind Link - You can speak telepathically to any creature you can see, provided the creature is within a number of feet of you equal to 10 times your level. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.\r When you're using this trait to speak telepathically to a creature, you can use your action to give that creature the ability to speak telepathically with you for 1 hour or until you end this effect as an action. To use this ability, the creature must be able to see you and must be within this trait's range. You can give this ability to only one creature at a time; giving it to a creature takes it away from another creature who has it.",
+        "Alignment - The noble spirit tied to a kalashtar drives it toward lawful and good behavior. Most kalashtar combine strong self-discipline with compassion for all beings, but some kalashtar resist the virtuous influence of their spirit.",
+        "Severed from Dreams - Kalashtar sleep, but they don't connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to spells and other magical effects that require you to dream, like dream, but not to spells and other magical effects that put you to sleep, like sleep.",
+        "Ability Score Increase - Your Wisdom score increases by 2, and your Charisma score increases by 1."
     ],
     "personality_traits": {
-        "personalityTraits": "I love to share trivia about my house\u2019s business.\nI represent my house and take pride in my looks.",
+        "personalityTraits": "I love to share trivia about my house's business. I represent my house and take pride in my looks.",
         "ideals": "Power. I want to ensure the prosperity of my house and wield its power myself. (Evil)",
         "bonds": "Someone I love was killed by a rival faction within my house, and I will have revenge.",
-        "flaws": "I\u2019m fixated on following official protocols.",
+        "flaws": "I'm fixated on following official protocols.",
         "appearance": null
     }
 }
