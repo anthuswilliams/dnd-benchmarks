@@ -16,26 +16,27 @@
         "wisdom": 12,
         "charisma": 12
     },
+    "proficiency_bonus": 2,
     "expertise": [],
     "proficiencies": [
-        "Strength Saving Throws",
+        "Medium Armor",
         "Performance",
+        "Acrobatics",
+        "Disguise Kit",
         "Light Armor",
-        "Simple Weapons",
         "Shields",
-        "Heavy Armor",
+        "Martial Weapons",
         "Constitution Saving Throws",
         "Survival",
-        "Disguise Kit",
         "Athletics",
+        "Simple Weapons",
+        "Strength Saving Throws",
         "Tantan",
-        "Martial Weapons",
-        "Acrobatics",
-        "Medium Armor"
+        "Heavy Armor"
     ],
     "languages": [
-        "Kharolian",
-        "Common"
+        "Common",
+        "Kharolian"
     ],
     "equipment": [],
     "currency": {
@@ -46,19 +47,19 @@
         "pp": 0
     },
     "class_features": [
-        "Second Wind - You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again.",
-        "Fighting Style - You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again."
+        "Fighting Style - You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.",
+        "Second Wind - You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again."
     ],
     "spells": [],
     "racial_traits": [
-        "Flight - Because of your wings, you have a [rule]flying[/rule] speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.",
-        "Size - Your size is Medium.",
-        "Languages - Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The Player's Handbook offers a list of languages to choose from. The DM is free to modify that list for a campaign.",
-        "Talons - You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.",
-        "Ability Score Increases - When determining your character's ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy. The “Quick Build” section for your character's class offers suggestions on which scores to increase. You can follow those suggestions or ignore them, but you can't raise any of your scores above 20.",
-        "Creature Type - You are a Humanoid.",
         "Speed - Your walking speed is 30 feet.",
-        "Wind Caller - Starting at 3rd level, you can cast the gust of wind spell with this trait, without requiring a material component. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast the spell using any spell slots you have of 2nd level or higher. Intelligence, Wisdom, or Charisma is your spellcasting ability for it when you cast gust of wind with this trait (choose when you select this race)."
+        "Creature Type - You are a Humanoid.",
+        "Talons - You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.",
+        "Languages - Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The Player's Handbook offers a list of languages to choose from. The DM is free to modify that list for a campaign.",
+        "Size - Your size is Medium.",
+        "Flight - Because of your wings, you have a [rule]flying[/rule] speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.",
+        "Wind Caller - Starting at 3rd level, you can cast the gust of wind spell with this trait, without requiring a material component. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast the spell using any spell slots you have of 2nd level or higher. Intelligence, Wisdom, or Charisma is your spellcasting ability for it when you cast gust of wind with this trait (choose when you select this race).",
+        "Ability Score Increases - When determining your character's ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy. The “Quick Build” section for your character's class offers suggestions on which scores to increase. You can follow those suggestions or ignore them, but you can't raise any of your scores above 20."
     ],
     "personality_traits": {
         "personalityTraits": null,

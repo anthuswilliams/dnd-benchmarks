@@ -1,2 +1,5 @@
 # Dev container
 .devcontainer
+
+# Python stuff
+__pycache__

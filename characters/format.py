@@ -32,6 +32,7 @@ def convert_json(input):
             "wisdom": data["stats"][4]["value"],
             "charisma": data["stats"][5]["value"],
         },
+        "proficiency_bonus": proficiency_bonus(data["classes"][0]["level"]),
         "expertise": get_abilities(data, "expertise"),
         "proficiencies": get_abilities(data, "proficiency"),
         "languages": get_abilities(data, "language"),
@@ -43,7 +44,37 @@ def convert_json(input):
         "personality_traits": data["traits"],
     }
     return ret
-# Skills
+
+def proficiency_bonus(level):
+    """
+    Calculate the proficiency bonus for a given level in Dungeons & Dragons 5e.
+    
+    The proficiency bonus starts at +2 for a 1st level character and increases
+    as the character gains levels. The progression is as follows:
+    Level 1-4: +2, Level 5-8: +3, Level 9-12: +4, Level 13-16: +5, Level 17-20: +6
+    
+    Parameters:
+    level (int): The level of the character.
+    
+    Returns:
+    int: The proficiency bonus for the given level.
+    """
+    # Ensure the level is within the 1-20 range
+    if not 1 <= level <= 20:
+        raise ValueError("Level must be between 1 and 20")
+    
+    # Calculate proficiency bonus based on level
+    if level < 5:
+        return 2
+    elif level < 9:
+        return 3
+    elif level < 13:
+        return 4
+    elif level < 17:
+        return 5
+    else:  # Level 17-20
+        return 6
+
 def get_racial_traits(input):
     """
     Returns a list of racial traits that the character has.
@@ -135,7 +166,7 @@ def convert_file(input_file, output_file):
         with open(output_file, 'w') as w:
             w.write(output_content)
 
-file_list = glob.glob("dndbeyond_format/[0-9][0-9].json")
+file_list = glob.glob("characters/dndbeyond_format/[0-9][0-9].json")
 for file in file_list:
     filename = file.split("/")[-1]
-    convert_file(file, f'formatted_characters/{filename.replace(".json", "_formatted.json")}')
+    convert_file(file, f'characters/formatted_characters/{filename.replace(".json", "_formatted.json")}')
