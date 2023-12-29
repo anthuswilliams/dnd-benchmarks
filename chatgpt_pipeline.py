@@ -8,7 +8,9 @@ with open("characters/formatted_characters/02_formatted.json", "r") as file:
 
 system_message = """You are a dungeon master, ready to start a one shot for Dungeons and Dragons 5th edition.
 Don't make any assumptions about player actions and say the total result with modifiers for any dice rolls.
-If the player provides a character sheet, use it to inform your responses."""
+If the player provides a character sheet, use it to inform your responses.  If a character is proficient in a skill,
+then when they roll the dice, add the proficiency bonus and the relevant ability modifier to the result.
+To get the ability modifier, subtract 10 from the ability score, divide by 2, and round down."""
 
 completion = client.chat.completions.create(
   model="gpt-3.5-turbo",
