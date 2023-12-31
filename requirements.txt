@@ -1,6 +1,6 @@
 beautifulsoup4
 transformers
-torch
+# torch
 # torchvision 
 # torchaudio 
 openai 
