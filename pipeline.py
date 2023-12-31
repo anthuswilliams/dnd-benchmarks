@@ -22,39 +22,42 @@ def score_game(initial_question, bot_response):
     print(completion.choices[0].message)
     return completion.choices[0].message.content
 
-def evaluate(metadata=None, start_game=None):
+def evaluate(metadata=None, start_game=None, iterations=20):
     if not start_game:
         raise ValueError("start_game should be a callable")
     if not metadata:
         metadata = {}
 
-    theme = random.choice(c.DND_CAMPAIGN_THEMES)
-    setting = random.choice(c.DND_SETTINGS)
-    character = random.choice(glob("characters/formatted_characters/*.json"))
+    convo_dir = f"conversations/{metadata['model']}"
+    for i in range(iterations):
+        theme = random.choice(c.DND_CAMPAIGN_THEMES)
+        setting = random.choice(c.DND_SETTINGS)
+        character = random.choice(glob("characters/formatted_characters/*.json"))
 
-    print("Evaluating %s theme in %s with character %s" % (theme, setting, character))
+        print("Evaluating %s theme in %s with character %s" % (theme, setting, character))
 
-    with open(character, "r", encoding="utf-8") as fh:
-        character_sheet = fh.read()
+        with open(character, "r", encoding="utf-8") as fh:
+            character_sheet = fh.read()
 
-    initial_prompt, setting_decl = start_game(theme, setting, character_sheet, c.SYSTEM_MESSAGE)
-    convo_num = len(glob("conversations/*.json"))
-    with open(f"conversations/{convo_num}.json", "w") as fh:
-        fh.write(json.dumps(setting_decl, indent=4))
+        initial_prompt, setting_decl = start_game(theme, setting, character_sheet, c.SYSTEM_MESSAGE)
+        convo_num = len(glob(f"{convo_dir}/*.json"))
+        with open(f"{convo_dir}/{convo_num}.json", "w") as fh:
+            fh.write(json.dumps(setting_decl, indent=4))
 
-    score = score_game(initial_prompt, setting_decl[-1]["content"])
+        score = score_game(initial_prompt, setting_decl[-1]["content"])
 
-    with open(f"scores.json", "r", encoding="utf-8") as fh:
-        current_scores = json.loads(fh.read())
+        with open(f"scores.json", "r", encoding="utf-8") as fh:
+            current_scores = json.loads(fh.read())
 
-    current_scores.append({
-        "convo_number": convo_num,
-        **metadata,
-        "theme": theme,
-        "setting": setting,
-        "character": character.split("/")[-1].split(".")[0],
-        "score": score,
-    })
+        current_scores.append({
+            "convo_number": convo_num,
+            "file": f"{convo_dir}/{convo_num}.json",
+            **metadata,
+            "theme": theme,
+            "setting": setting,
+            "character": character.split("/")[-1].split(".")[0],
+            "score": score,
+        })
 
-    with open(f"scores.json", "w") as fh:    
-        fh.write(json.dumps(current_scores, indent=4))
+        with open(f"scores.json", "w") as fh:    
+            fh.write(json.dumps(current_scores, indent=4))
