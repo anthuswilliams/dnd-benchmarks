@@ -47,7 +47,8 @@ def evaluate(metadata=None, start_game=None, iterations=20):
         score = score_game(initial_prompt, setting_decl[-1]["content"])
 
         with open(f"scores.json", "r", encoding="utf-8") as fh:
-            current_scores = json.loads(fh.read())
+            current_scores_str = fh.read()
+            current_scores = json.loads(current_scores_str) if current_scores_str else []
 
         current_scores.append({
             "convo_number": convo_num,
