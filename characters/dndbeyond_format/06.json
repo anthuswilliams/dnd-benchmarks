@@ -4920,7 +4920,728 @@
             {
                 "entityTypeId": 1446578651,
                 "characterClassId": 67674704,
-                "spells": []
+                "spells": [
+                    {
+                        "overrideSaveDc": null,
+                        "limitedUse": null,
+                        "id": 136700,
+                        "entityTypeId": 435869154,
+                        "definition": {
+                            "id": 2080,
+                            "name": "Druidcraft",
+                            "level": 0,
+                            "school": "Transmutation",
+                            "duration": {
+                                "durationInterval": 0,
+                                "durationUnit": null,
+                                "durationType": "Instantaneous"
+                            },
+                            "activation": {
+                                "activationTime": 1,
+                                "activationType": 1
+                            },
+                            "range": {
+                                "origin": "Ranged",
+                                "rangeValue": 30,
+                                "aoeType": null,
+                                "aoeValue": null
+                            },
+                            "asPartOfWeaponAttack": false,
+                            "description": "<p>Whispering to the spirits of nature, you create one of the following effects within range:</p>\r\n<ul>\r\n<li>You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.</li>\r\n<li>You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.</li>\r\n<li>You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint odor of skunk. The effect must fit in a 5-foot cube.</li>\r\n<li>You instantly light or snuff out a candle, a torch, or a small campfire.</li>\r\n</ul>",
+                            "snippet": "",
+                            "concentration": false,
+                            "ritual": false,
+                            "rangeArea": null,
+                            "damageEffect": null,
+                            "components": [
+                                1,
+                                2
+                            ],
+                            "componentsDescription": "",
+                            "saveDcAbilityId": null,
+                            "healing": null,
+                            "healingDice": [],
+                            "tempHpDice": [],
+                            "attackType": null,
+                            "canCastAtHigherLevel": false,
+                            "isHomebrew": false,
+                            "version": null,
+                            "sourceId": null,
+                            "sourcePageNumber": 236,
+                            "requiresSavingThrow": false,
+                            "requiresAttackRoll": false,
+                            "atHigherLevels": {
+                                "scaleType": "characterlevel",
+                                "higherLevelDefinitions": [],
+                                "additionalAttacks": [],
+                                "additionalTargets": [],
+                                "areaOfEffect": [],
+                                "duration": [],
+                                "creatures": [],
+                                "special": [],
+                                "points": []
+                            },
+                            "modifiers": [],
+                            "conditions": [],
+                            "tags": [
+                                "Control"
+                            ],
+                            "castingTimeDescription": "",
+                            "scaleType": "characterlevel",
+                            "sources": [
+                                {
+                                    "sourceId": 1,
+                                    "pageNumber": null,
+                                    "sourceType": 2
+                                },
+                                {
+                                    "sourceId": 2,
+                                    "pageNumber": 236,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "spellGroups": []
+                        },
+                        "definitionId": 0,
+                        "prepared": false,
+                        "countsAsKnownSpell": true,
+                        "usesSpellSlot": false,
+                        "castAtLevel": null,
+                        "alwaysPrepared": false,
+                        "restriction": null,
+                        "spellCastingAbilityId": null,
+                        "displayAsAttack": null,
+                        "additionalDescription": null,
+                        "castOnlyAsRitual": false,
+                        "ritualCastingType": null,
+                        "range": {
+                            "origin": "Ranged",
+                            "rangeValue": 30,
+                            "aoeType": null,
+                            "aoeValue": null
+                        },
+                        "activation": {
+                            "activationTime": 1,
+                            "activationType": 1
+                        },
+                        "baseLevelAtWill": false,
+                        "atWillLimitedUseLevel": null,
+                        "isSignatureSpell": null,
+                        "componentId": 0,
+                        "componentTypeId": 0,
+                        "spellListId": null
+                    },
+                    {
+                        "overrideSaveDc": null,
+                        "limitedUse": null,
+                        "id": 138213,
+                        "entityTypeId": 435869154,
+                        "definition": {
+                            "id": 14558,
+                            "name": "Primal Savagery",
+                            "level": 0,
+                            "school": "Transmutation",
+                            "duration": {
+                                "durationInterval": 0,
+                                "durationUnit": null,
+                                "durationType": "Instantaneous"
+                            },
+                            "activation": {
+                                "activationTime": 1,
+                                "activationType": 1
+                            },
+                            "range": {
+                                "origin": "Self",
+                                "rangeValue": null,
+                                "aoeType": null,
+                                "aoeValue": null
+                            },
+                            "asPartOfWeaponAttack": false,
+                            "description": "<p class=\"Core-Styles_Core-Body\">You channel primal magic to cause your teeth or fingernails to sharpen, ready to deliver a corrosive attack. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes 1d10 acid damage. After you make the attack, your teeth or fingernails return to normal.</p>\r\n<p class=\"Core-Styles_Core-Body\">The spell’s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>",
+                            "snippet": "",
+                            "concentration": false,
+                            "ritual": false,
+                            "rangeArea": null,
+                            "damageEffect": null,
+                            "components": [
+                                2
+                            ],
+                            "componentsDescription": "",
+                            "saveDcAbilityId": null,
+                            "healing": null,
+                            "healingDice": [],
+                            "tempHpDice": [],
+                            "attackType": 1,
+                            "canCastAtHigherLevel": true,
+                            "isHomebrew": false,
+                            "version": null,
+                            "sourceId": null,
+                            "sourcePageNumber": 163,
+                            "requiresSavingThrow": false,
+                            "requiresAttackRoll": true,
+                            "atHigherLevels": {
+                                "scaleType": "characterlevel",
+                                "higherLevelDefinitions": [],
+                                "additionalAttacks": [],
+                                "additionalTargets": [],
+                                "areaOfEffect": [],
+                                "duration": [],
+                                "creatures": [],
+                                "special": [],
+                                "points": []
+                            },
+                            "modifiers": [
+                                {
+                                    "fixedValue": null,
+                                    "id": "spell_14558_9423",
+                                    "entityId": null,
+                                    "entityTypeId": null,
+                                    "type": "damage",
+                                    "subType": "acid",
+                                    "dice": null,
+                                    "restriction": "",
+                                    "statId": null,
+                                    "requiresAttunement": false,
+                                    "duration": null,
+                                    "friendlyTypeName": "Damage",
+                                    "friendlySubtypeName": "Acid",
+                                    "isGranted": false,
+                                    "bonusTypes": [],
+                                    "value": null,
+                                    "availableToMulticlass": null,
+                                    "modifierTypeId": 0,
+                                    "modifierSubTypeId": 0,
+                                    "componentId": 0,
+                                    "componentTypeId": 0,
+                                    "die": {
+                                        "diceCount": 1,
+                                        "diceValue": 10,
+                                        "diceMultiplier": null,
+                                        "fixedValue": null,
+                                        "diceString": "1d10"
+                                    },
+                                    "count": 1,
+                                    "durationUnit": null,
+                                    "usePrimaryStat": false,
+                                    "atHigherLevels": {
+                                        "scaleType": "characterlevel",
+                                        "higherLevelDefinitions": [
+                                            {
+                                                "level": 5,
+                                                "typeId": 15,
+                                                "dice": {
+                                                    "diceCount": 2,
+                                                    "diceValue": 10,
+                                                    "diceMultiplier": null,
+                                                    "fixedValue": 0,
+                                                    "diceString": "2d10"
+                                                },
+                                                "value": null,
+                                                "details": ""
+                                            },
+                                            {
+                                                "level": 11,
+                                                "typeId": 15,
+                                                "dice": {
+                                                    "diceCount": 3,
+                                                    "diceValue": 10,
+                                                    "diceMultiplier": null,
+                                                    "fixedValue": 0,
+                                                    "diceString": "3d10"
+                                                },
+                                                "value": null,
+                                                "details": ""
+                                            },
+                                            {
+                                                "level": 17,
+                                                "typeId": 15,
+                                                "dice": {
+                                                    "diceCount": 4,
+                                                    "diceValue": 10,
+                                                    "diceMultiplier": null,
+                                                    "fixedValue": 0,
+                                                    "diceString": "4d10"
+                                                },
+                                                "value": null,
+                                                "details": ""
+                                            }
+                                        ],
+                                        "additionalAttacks": [],
+                                        "additionalTargets": [],
+                                        "areaOfEffect": [],
+                                        "duration": [],
+                                        "creatures": [],
+                                        "special": [],
+                                        "points": []
+                                    }
+                                }
+                            ],
+                            "conditions": [],
+                            "tags": [
+                                "Damage"
+                            ],
+                            "castingTimeDescription": "",
+                            "scaleType": "characterlevel",
+                            "sources": [
+                                {
+                                    "sourceId": 27,
+                                    "pageNumber": 163,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "spellGroups": []
+                        },
+                        "definitionId": 0,
+                        "prepared": false,
+                        "countsAsKnownSpell": true,
+                        "usesSpellSlot": false,
+                        "castAtLevel": null,
+                        "alwaysPrepared": false,
+                        "restriction": null,
+                        "spellCastingAbilityId": null,
+                        "displayAsAttack": null,
+                        "additionalDescription": null,
+                        "castOnlyAsRitual": false,
+                        "ritualCastingType": null,
+                        "range": {
+                            "origin": "Self",
+                            "rangeValue": null,
+                            "aoeType": null,
+                            "aoeValue": null
+                        },
+                        "activation": {
+                            "activationTime": 1,
+                            "activationType": 1
+                        },
+                        "baseLevelAtWill": false,
+                        "atWillLimitedUseLevel": null,
+                        "isSignatureSpell": null,
+                        "componentId": 0,
+                        "componentTypeId": 0,
+                        "spellListId": null
+                    },
+                    {
+                        "overrideSaveDc": null,
+                        "limitedUse": null,
+                        "id": 136755,
+                        "entityTypeId": 435869154,
+                        "definition": {
+                            "id": 2091,
+                            "name": "Faerie Fire",
+                            "level": 1,
+                            "school": "Evocation",
+                            "duration": {
+                                "durationInterval": 1,
+                                "durationUnit": "Minute",
+                                "durationType": "Concentration"
+                            },
+                            "activation": {
+                                "activationTime": 1,
+                                "activationType": 1
+                            },
+                            "range": {
+                                "origin": "Ranged",
+                                "rangeValue": 60,
+                                "aoeType": "Cube",
+                                "aoeValue": 20
+                            },
+                            "asPartOfWeaponAttack": false,
+                            "description": "<p>Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.</p>\r\n<p>Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.</p>",
+                            "snippet": "",
+                            "concentration": true,
+                            "ritual": false,
+                            "rangeArea": null,
+                            "damageEffect": null,
+                            "components": [
+                                1
+                            ],
+                            "componentsDescription": "",
+                            "saveDcAbilityId": 2,
+                            "healing": null,
+                            "healingDice": [],
+                            "tempHpDice": [],
+                            "attackType": null,
+                            "canCastAtHigherLevel": false,
+                            "isHomebrew": false,
+                            "version": null,
+                            "sourceId": null,
+                            "sourcePageNumber": 239,
+                            "requiresSavingThrow": true,
+                            "requiresAttackRoll": false,
+                            "atHigherLevels": {
+                                "scaleType": null,
+                                "higherLevelDefinitions": [],
+                                "additionalAttacks": [],
+                                "additionalTargets": [],
+                                "areaOfEffect": [],
+                                "duration": [],
+                                "creatures": [],
+                                "special": [],
+                                "points": []
+                            },
+                            "modifiers": [
+                                {
+                                    "fixedValue": null,
+                                    "id": "spell_2091_84",
+                                    "entityId": null,
+                                    "entityTypeId": null,
+                                    "type": "advantage",
+                                    "subType": "melee-attacks",
+                                    "dice": null,
+                                    "restriction": "If target is visible",
+                                    "statId": null,
+                                    "requiresAttunement": false,
+                                    "duration": null,
+                                    "friendlyTypeName": "Advantage",
+                                    "friendlySubtypeName": "Melee Attacks",
+                                    "isGranted": false,
+                                    "bonusTypes": [],
+                                    "value": null,
+                                    "availableToMulticlass": null,
+                                    "modifierTypeId": 0,
+                                    "modifierSubTypeId": 0,
+                                    "componentId": 0,
+                                    "componentTypeId": 0,
+                                    "die": {
+                                        "diceCount": null,
+                                        "diceValue": null,
+                                        "diceMultiplier": null,
+                                        "fixedValue": null,
+                                        "diceString": null
+                                    },
+                                    "count": 1,
+                                    "durationUnit": null,
+                                    "usePrimaryStat": false,
+                                    "atHigherLevels": {
+                                        "scaleType": null,
+                                        "higherLevelDefinitions": [],
+                                        "additionalAttacks": [],
+                                        "additionalTargets": [],
+                                        "areaOfEffect": [],
+                                        "duration": [],
+                                        "creatures": [],
+                                        "special": [],
+                                        "points": []
+                                    }
+                                },
+                                {
+                                    "fixedValue": null,
+                                    "id": "spell_2091_85",
+                                    "entityId": null,
+                                    "entityTypeId": null,
+                                    "type": "advantage",
+                                    "subType": "ranged-attacks",
+                                    "dice": null,
+                                    "restriction": "If target is visible",
+                                    "statId": null,
+                                    "requiresAttunement": false,
+                                    "duration": null,
+                                    "friendlyTypeName": "Advantage",
+                                    "friendlySubtypeName": "Ranged Attacks",
+                                    "isGranted": false,
+                                    "bonusTypes": [],
+                                    "value": null,
+                                    "availableToMulticlass": null,
+                                    "modifierTypeId": 0,
+                                    "modifierSubTypeId": 0,
+                                    "componentId": 0,
+                                    "componentTypeId": 0,
+                                    "die": {
+                                        "diceCount": null,
+                                        "diceValue": null,
+                                        "diceMultiplier": null,
+                                        "fixedValue": null,
+                                        "diceString": null
+                                    },
+                                    "count": 1,
+                                    "durationUnit": null,
+                                    "usePrimaryStat": false,
+                                    "atHigherLevels": {
+                                        "scaleType": null,
+                                        "higherLevelDefinitions": [],
+                                        "additionalAttacks": [],
+                                        "additionalTargets": [],
+                                        "areaOfEffect": [],
+                                        "duration": [],
+                                        "creatures": [],
+                                        "special": [],
+                                        "points": []
+                                    }
+                                },
+                                {
+                                    "fixedValue": null,
+                                    "id": "spell_2091_86",
+                                    "entityId": null,
+                                    "entityTypeId": null,
+                                    "type": "advantage",
+                                    "subType": "spell-attacks",
+                                    "dice": null,
+                                    "restriction": "If target is visible",
+                                    "statId": null,
+                                    "requiresAttunement": false,
+                                    "duration": null,
+                                    "friendlyTypeName": "Advantage",
+                                    "friendlySubtypeName": "Spell Attacks",
+                                    "isGranted": false,
+                                    "bonusTypes": [],
+                                    "value": null,
+                                    "availableToMulticlass": null,
+                                    "modifierTypeId": 0,
+                                    "modifierSubTypeId": 0,
+                                    "componentId": 0,
+                                    "componentTypeId": 0,
+                                    "die": {
+                                        "diceCount": null,
+                                        "diceValue": null,
+                                        "diceMultiplier": null,
+                                        "fixedValue": null,
+                                        "diceString": null
+                                    },
+                                    "count": 1,
+                                    "durationUnit": null,
+                                    "usePrimaryStat": false,
+                                    "atHigherLevels": {
+                                        "scaleType": null,
+                                        "higherLevelDefinitions": [],
+                                        "additionalAttacks": [],
+                                        "additionalTargets": [],
+                                        "areaOfEffect": [],
+                                        "duration": [],
+                                        "creatures": [],
+                                        "special": [],
+                                        "points": []
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "type": 2,
+                                    "conditionId": 8,
+                                    "conditionDuration": 1,
+                                    "durationUnit": "Minute",
+                                    "exception": ""
+                                }
+                            ],
+                            "tags": [
+                                "Debuff"
+                            ],
+                            "castingTimeDescription": "",
+                            "scaleType": null,
+                            "sources": [
+                                {
+                                    "sourceId": 1,
+                                    "pageNumber": null,
+                                    "sourceType": 2
+                                },
+                                {
+                                    "sourceId": 2,
+                                    "pageNumber": 239,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "spellGroups": []
+                        },
+                        "definitionId": 0,
+                        "prepared": true,
+                        "countsAsKnownSpell": true,
+                        "usesSpellSlot": true,
+                        "castAtLevel": null,
+                        "alwaysPrepared": false,
+                        "restriction": null,
+                        "spellCastingAbilityId": null,
+                        "displayAsAttack": null,
+                        "additionalDescription": null,
+                        "castOnlyAsRitual": false,
+                        "ritualCastingType": null,
+                        "range": {
+                            "origin": "Ranged",
+                            "rangeValue": 60,
+                            "aoeType": "Cube",
+                            "aoeValue": 20
+                        },
+                        "activation": {
+                            "activationTime": 1,
+                            "activationType": 1
+                        },
+                        "baseLevelAtWill": false,
+                        "atWillLimitedUseLevel": null,
+                        "isSignatureSpell": null,
+                        "componentId": 0,
+                        "componentTypeId": 0,
+                        "spellListId": null
+                    },
+                    {
+                        "overrideSaveDc": null,
+                        "limitedUse": null,
+                        "id": 136484,
+                        "entityTypeId": 435869154,
+                        "definition": {
+                            "id": 2056,
+                            "name": "Cure Wounds",
+                            "level": 1,
+                            "school": "Evocation",
+                            "duration": {
+                                "durationInterval": 0,
+                                "durationUnit": null,
+                                "durationType": "Instantaneous"
+                            },
+                            "activation": {
+                                "activationTime": 1,
+                                "activationType": 1
+                            },
+                            "range": {
+                                "origin": "Touch",
+                                "rangeValue": 0,
+                                "aoeType": null,
+                                "aoeValue": null
+                            },
+                            "asPartOfWeaponAttack": false,
+                            "description": "<p>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>\r\n<p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</p>",
+                            "snippet": "",
+                            "concentration": false,
+                            "ritual": false,
+                            "rangeArea": null,
+                            "damageEffect": null,
+                            "components": [
+                                1,
+                                2
+                            ],
+                            "componentsDescription": "",
+                            "saveDcAbilityId": null,
+                            "healing": null,
+                            "healingDice": [],
+                            "tempHpDice": [],
+                            "attackType": null,
+                            "canCastAtHigherLevel": true,
+                            "isHomebrew": false,
+                            "version": null,
+                            "sourceId": null,
+                            "sourcePageNumber": 230,
+                            "requiresSavingThrow": false,
+                            "requiresAttackRoll": false,
+                            "atHigherLevels": {
+                                "scaleType": "spellscale",
+                                "higherLevelDefinitions": [],
+                                "additionalAttacks": [],
+                                "additionalTargets": [],
+                                "areaOfEffect": [],
+                                "duration": [],
+                                "creatures": [],
+                                "special": [],
+                                "points": []
+                            },
+                            "modifiers": [
+                                {
+                                    "fixedValue": null,
+                                    "id": "spell_2056_73",
+                                    "entityId": null,
+                                    "entityTypeId": null,
+                                    "type": "bonus",
+                                    "subType": "hit-points",
+                                    "dice": null,
+                                    "restriction": "",
+                                    "statId": null,
+                                    "requiresAttunement": false,
+                                    "duration": null,
+                                    "friendlyTypeName": "Bonus",
+                                    "friendlySubtypeName": "Hit Points",
+                                    "isGranted": false,
+                                    "bonusTypes": [],
+                                    "value": null,
+                                    "availableToMulticlass": null,
+                                    "modifierTypeId": 0,
+                                    "modifierSubTypeId": 0,
+                                    "componentId": 0,
+                                    "componentTypeId": 0,
+                                    "die": {
+                                        "diceCount": 1,
+                                        "diceValue": 8,
+                                        "diceMultiplier": null,
+                                        "fixedValue": null,
+                                        "diceString": "1d8"
+                                    },
+                                    "count": 1,
+                                    "durationUnit": null,
+                                    "usePrimaryStat": true,
+                                    "atHigherLevels": {
+                                        "scaleType": "spellscale",
+                                        "higherLevelDefinitions": [
+                                            {
+                                                "level": 1,
+                                                "typeId": 15,
+                                                "dice": {
+                                                    "diceCount": 1,
+                                                    "diceValue": 8,
+                                                    "diceMultiplier": null,
+                                                    "fixedValue": 0,
+                                                    "diceString": "1d8"
+                                                },
+                                                "value": null,
+                                                "details": ""
+                                            }
+                                        ],
+                                        "additionalAttacks": [],
+                                        "additionalTargets": [],
+                                        "areaOfEffect": [],
+                                        "duration": [],
+                                        "creatures": [],
+                                        "special": [],
+                                        "points": []
+                                    }
+                                }
+                            ],
+                            "conditions": [],
+                            "tags": [
+                                "Healing"
+                            ],
+                            "castingTimeDescription": "",
+                            "scaleType": "spellscale",
+                            "sources": [
+                                {
+                                    "sourceId": 1,
+                                    "pageNumber": null,
+                                    "sourceType": 2
+                                },
+                                {
+                                    "sourceId": 2,
+                                    "pageNumber": 230,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "spellGroups": [
+                                1
+                            ]
+                        },
+                        "definitionId": 0,
+                        "prepared": true,
+                        "countsAsKnownSpell": true,
+                        "usesSpellSlot": true,
+                        "castAtLevel": null,
+                        "alwaysPrepared": false,
+                        "restriction": null,
+                        "spellCastingAbilityId": null,
+                        "displayAsAttack": null,
+                        "additionalDescription": null,
+                        "castOnlyAsRitual": false,
+                        "ritualCastingType": null,
+                        "range": {
+                            "origin": "Touch",
+                            "rangeValue": 0,
+                            "aoeType": null,
+                            "aoeValue": null
+                        },
+                        "activation": {
+                            "activationTime": 1,
+                            "activationType": 1
+                        },
+                        "baseLevelAtWill": false,
+                        "atWillLimitedUseLevel": null,
+                        "isSignatureSpell": null,
+                        "componentId": 0,
+                        "componentTypeId": 0,
+                        "spellListId": null
+                    }
+                ]
             }
         ],
         "customItems": [],
@@ -4948,7 +5669,7 @@
             }
         ],
         "dateModified": "2022-03-06T07:07:51.993Z",
-        "providedFrom": "cache"
+        "providedFrom": "storage"
     },
     "pagination": null
 }

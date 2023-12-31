@@ -5127,7 +5127,537 @@
             {
                 "entityTypeId": 1446578651,
                 "characterClassId": 61072213,
-                "spells": []
+                "spells": [
+                    {
+                        "overrideSaveDc": null,
+                        "limitedUse": null,
+                        "id": 138476,
+                        "entityTypeId": 435869154,
+                        "definition": {
+                            "id": 2187,
+                            "name": "Mending",
+                            "level": 0,
+                            "school": "Transmutation",
+                            "duration": {
+                                "durationInterval": 0,
+                                "durationUnit": null,
+                                "durationType": "Instantaneous"
+                            },
+                            "activation": {
+                                "activationTime": 1,
+                                "activationType": 6
+                            },
+                            "range": {
+                                "origin": "Touch",
+                                "rangeValue": 0,
+                                "aoeType": null,
+                                "aoeValue": null
+                            },
+                            "asPartOfWeaponAttack": false,
+                            "description": "<p>This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.</p>\r\n<p>This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.</p>",
+                            "snippet": "",
+                            "concentration": false,
+                            "ritual": false,
+                            "rangeArea": null,
+                            "damageEffect": null,
+                            "components": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "componentsDescription": "two lodestones",
+                            "saveDcAbilityId": null,
+                            "healing": null,
+                            "healingDice": [],
+                            "tempHpDice": [],
+                            "attackType": null,
+                            "canCastAtHigherLevel": false,
+                            "isHomebrew": false,
+                            "version": null,
+                            "sourceId": null,
+                            "sourcePageNumber": 259,
+                            "requiresSavingThrow": false,
+                            "requiresAttackRoll": false,
+                            "atHigherLevels": {
+                                "scaleType": "characterlevel",
+                                "higherLevelDefinitions": [],
+                                "additionalAttacks": [],
+                                "additionalTargets": [],
+                                "areaOfEffect": [],
+                                "duration": [],
+                                "creatures": [],
+                                "special": [],
+                                "points": []
+                            },
+                            "modifiers": [],
+                            "conditions": [],
+                            "tags": [
+                                "Utility"
+                            ],
+                            "castingTimeDescription": "",
+                            "scaleType": "characterlevel",
+                            "sources": [
+                                {
+                                    "sourceId": 1,
+                                    "pageNumber": null,
+                                    "sourceType": 2
+                                },
+                                {
+                                    "sourceId": 2,
+                                    "pageNumber": 259,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "spellGroups": []
+                        },
+                        "definitionId": 0,
+                        "prepared": false,
+                        "countsAsKnownSpell": true,
+                        "usesSpellSlot": false,
+                        "castAtLevel": null,
+                        "alwaysPrepared": false,
+                        "restriction": null,
+                        "spellCastingAbilityId": null,
+                        "displayAsAttack": null,
+                        "additionalDescription": null,
+                        "castOnlyAsRitual": false,
+                        "ritualCastingType": null,
+                        "range": {
+                            "origin": "Touch",
+                            "rangeValue": 0,
+                            "aoeType": null,
+                            "aoeValue": null
+                        },
+                        "activation": {
+                            "activationTime": 1,
+                            "activationType": 6
+                        },
+                        "baseLevelAtWill": false,
+                        "atWillLimitedUseLevel": null,
+                        "isSignatureSpell": null,
+                        "componentId": 0,
+                        "componentTypeId": 0,
+                        "spellListId": null
+                    },
+                    {
+                        "overrideSaveDc": null,
+                        "limitedUse": null,
+                        "id": 138266,
+                        "entityTypeId": 435869154,
+                        "definition": {
+                            "id": 2401,
+                            "name": "Thunderclap",
+                            "level": 0,
+                            "school": "Evocation",
+                            "duration": {
+                                "durationInterval": 0,
+                                "durationUnit": null,
+                                "durationType": "Instantaneous"
+                            },
+                            "activation": {
+                                "activationTime": 1,
+                                "activationType": 1
+                            },
+                            "range": {
+                                "origin": "Ranged",
+                                "rangeValue": 5,
+                                "aoeType": null,
+                                "aoeValue": null
+                            },
+                            "asPartOfWeaponAttack": false,
+                            "description": "<p class=\"Core-Styles_Core-Body\">You create a burst of thunderous sound that can be heard up to 100 feet away. Each creature within range, other than you, must succeed on a Constitution saving throw or take 1d6 thunder damage.</p>\r\n<p class=\"Core-Styles_Core-Body\">The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>",
+                            "snippet": "",
+                            "concentration": false,
+                            "ritual": false,
+                            "rangeArea": null,
+                            "damageEffect": null,
+                            "components": [
+                                2
+                            ],
+                            "componentsDescription": "",
+                            "saveDcAbilityId": 3,
+                            "healing": null,
+                            "healingDice": [],
+                            "tempHpDice": [],
+                            "attackType": null,
+                            "canCastAtHigherLevel": true,
+                            "isHomebrew": false,
+                            "version": null,
+                            "sourceId": null,
+                            "sourcePageNumber": 168,
+                            "requiresSavingThrow": true,
+                            "requiresAttackRoll": false,
+                            "atHigherLevels": {
+                                "scaleType": "characterlevel",
+                                "higherLevelDefinitions": [],
+                                "additionalAttacks": [],
+                                "additionalTargets": [],
+                                "areaOfEffect": [],
+                                "duration": [],
+                                "creatures": [],
+                                "special": [],
+                                "points": []
+                            },
+                            "modifiers": [
+                                {
+                                    "fixedValue": null,
+                                    "id": "spell_2401_442",
+                                    "entityId": null,
+                                    "entityTypeId": null,
+                                    "type": "damage",
+                                    "subType": "thunder",
+                                    "dice": null,
+                                    "restriction": "",
+                                    "statId": null,
+                                    "requiresAttunement": false,
+                                    "duration": null,
+                                    "friendlyTypeName": "Damage",
+                                    "friendlySubtypeName": "Thunder",
+                                    "isGranted": false,
+                                    "bonusTypes": [],
+                                    "value": null,
+                                    "availableToMulticlass": null,
+                                    "modifierTypeId": 0,
+                                    "modifierSubTypeId": 0,
+                                    "componentId": 0,
+                                    "componentTypeId": 0,
+                                    "die": {
+                                        "diceCount": 1,
+                                        "diceValue": 6,
+                                        "diceMultiplier": null,
+                                        "fixedValue": null,
+                                        "diceString": "1d6"
+                                    },
+                                    "count": 1,
+                                    "durationUnit": null,
+                                    "usePrimaryStat": false,
+                                    "atHigherLevels": {
+                                        "scaleType": "characterlevel",
+                                        "higherLevelDefinitions": [
+                                            {
+                                                "level": 5,
+                                                "typeId": 15,
+                                                "dice": {
+                                                    "diceCount": 2,
+                                                    "diceValue": 6,
+                                                    "diceMultiplier": null,
+                                                    "fixedValue": 0,
+                                                    "diceString": "2d6"
+                                                },
+                                                "value": null,
+                                                "details": ""
+                                            },
+                                            {
+                                                "level": 11,
+                                                "typeId": 15,
+                                                "dice": {
+                                                    "diceCount": 3,
+                                                    "diceValue": 6,
+                                                    "diceMultiplier": null,
+                                                    "fixedValue": 0,
+                                                    "diceString": "3d6"
+                                                },
+                                                "value": null,
+                                                "details": ""
+                                            },
+                                            {
+                                                "level": 17,
+                                                "typeId": 15,
+                                                "dice": {
+                                                    "diceCount": 4,
+                                                    "diceValue": 6,
+                                                    "diceMultiplier": null,
+                                                    "fixedValue": 0,
+                                                    "diceString": "4d6"
+                                                },
+                                                "value": null,
+                                                "details": ""
+                                            }
+                                        ],
+                                        "additionalAttacks": [],
+                                        "additionalTargets": [],
+                                        "areaOfEffect": [],
+                                        "duration": [],
+                                        "creatures": [],
+                                        "special": [],
+                                        "points": []
+                                    }
+                                }
+                            ],
+                            "conditions": [],
+                            "tags": [
+                                "Damage"
+                            ],
+                            "castingTimeDescription": "",
+                            "scaleType": "characterlevel",
+                            "sources": [
+                                {
+                                    "sourceId": 4,
+                                    "pageNumber": 168,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "spellGroups": []
+                        },
+                        "definitionId": 0,
+                        "prepared": false,
+                        "countsAsKnownSpell": true,
+                        "usesSpellSlot": false,
+                        "castAtLevel": null,
+                        "alwaysPrepared": false,
+                        "restriction": null,
+                        "spellCastingAbilityId": null,
+                        "displayAsAttack": null,
+                        "additionalDescription": null,
+                        "castOnlyAsRitual": false,
+                        "ritualCastingType": null,
+                        "range": {
+                            "origin": "Ranged",
+                            "rangeValue": 5,
+                            "aoeType": null,
+                            "aoeValue": null
+                        },
+                        "activation": {
+                            "activationTime": 1,
+                            "activationType": 1
+                        },
+                        "baseLevelAtWill": false,
+                        "atWillLimitedUseLevel": null,
+                        "isSignatureSpell": null,
+                        "componentId": 0,
+                        "componentTypeId": 0,
+                        "spellListId": null
+                    },
+                    {
+                        "overrideSaveDc": null,
+                        "limitedUse": null,
+                        "id": 137872,
+                        "entityTypeId": 435869154,
+                        "definition": {
+                            "id": 2112,
+                            "name": "Fog Cloud",
+                            "level": 1,
+                            "school": "Conjuration",
+                            "duration": {
+                                "durationInterval": 1,
+                                "durationUnit": "Hour",
+                                "durationType": "Concentration"
+                            },
+                            "activation": {
+                                "activationTime": 1,
+                                "activationType": 1
+                            },
+                            "range": {
+                                "origin": "Ranged",
+                                "rangeValue": 120,
+                                "aoeType": "Sphere",
+                                "aoeValue": 20
+                            },
+                            "asPartOfWeaponAttack": false,
+                            "description": "<p>You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>\r\n<p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st.</p>",
+                            "snippet": "",
+                            "concentration": true,
+                            "ritual": false,
+                            "rangeArea": null,
+                            "damageEffect": null,
+                            "components": [
+                                1,
+                                2
+                            ],
+                            "componentsDescription": "",
+                            "saveDcAbilityId": null,
+                            "healing": null,
+                            "healingDice": [],
+                            "tempHpDice": [],
+                            "attackType": null,
+                            "canCastAtHigherLevel": true,
+                            "isHomebrew": false,
+                            "version": null,
+                            "sourceId": null,
+                            "sourcePageNumber": 243,
+                            "requiresSavingThrow": false,
+                            "requiresAttackRoll": false,
+                            "atHigherLevels": {
+                                "scaleType": "spellscale",
+                                "higherLevelDefinitions": [
+                                    {
+                                        "level": 1,
+                                        "typeId": 9,
+                                        "dice": null,
+                                        "value": 20,
+                                        "details": ""
+                                    }
+                                ],
+                                "additionalAttacks": [],
+                                "additionalTargets": [],
+                                "areaOfEffect": [],
+                                "duration": [],
+                                "creatures": [],
+                                "special": [],
+                                "points": []
+                            },
+                            "modifiers": [],
+                            "conditions": [],
+                            "tags": [
+                                "Control",
+                                "Environment"
+                            ],
+                            "castingTimeDescription": "",
+                            "scaleType": "spellscale",
+                            "sources": [
+                                {
+                                    "sourceId": 1,
+                                    "pageNumber": null,
+                                    "sourceType": 2
+                                },
+                                {
+                                    "sourceId": 2,
+                                    "pageNumber": 243,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "spellGroups": []
+                        },
+                        "definitionId": 0,
+                        "prepared": true,
+                        "countsAsKnownSpell": true,
+                        "usesSpellSlot": true,
+                        "castAtLevel": null,
+                        "alwaysPrepared": false,
+                        "restriction": null,
+                        "spellCastingAbilityId": null,
+                        "displayAsAttack": null,
+                        "additionalDescription": null,
+                        "castOnlyAsRitual": false,
+                        "ritualCastingType": null,
+                        "range": {
+                            "origin": "Ranged",
+                            "rangeValue": 120,
+                            "aoeType": "Sphere",
+                            "aoeValue": 20
+                        },
+                        "activation": {
+                            "activationTime": 1,
+                            "activationType": 1
+                        },
+                        "baseLevelAtWill": false,
+                        "atWillLimitedUseLevel": null,
+                        "isSignatureSpell": null,
+                        "componentId": 0,
+                        "componentTypeId": 0,
+                        "spellListId": null
+                    },
+                    {
+                        "overrideSaveDc": null,
+                        "limitedUse": null,
+                        "id": 136563,
+                        "entityTypeId": 435869154,
+                        "definition": {
+                            "id": 2065,
+                            "name": "Detect Magic",
+                            "level": 1,
+                            "school": "Divination",
+                            "duration": {
+                                "durationInterval": 10,
+                                "durationUnit": "Minute",
+                                "durationType": "Concentration"
+                            },
+                            "activation": {
+                                "activationTime": 1,
+                                "activationType": 1
+                            },
+                            "range": {
+                                "origin": "Self",
+                                "rangeValue": 0,
+                                "aoeType": "Sphere",
+                                "aoeValue": 30
+                            },
+                            "asPartOfWeaponAttack": false,
+                            "description": "<p>For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.</p>\r\n<p>The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>",
+                            "snippet": "",
+                            "concentration": true,
+                            "ritual": true,
+                            "rangeArea": null,
+                            "damageEffect": null,
+                            "components": [
+                                1,
+                                2
+                            ],
+                            "componentsDescription": "",
+                            "saveDcAbilityId": null,
+                            "healing": null,
+                            "healingDice": [],
+                            "tempHpDice": [],
+                            "attackType": null,
+                            "canCastAtHigherLevel": false,
+                            "isHomebrew": false,
+                            "version": null,
+                            "sourceId": null,
+                            "sourcePageNumber": 231,
+                            "requiresSavingThrow": false,
+                            "requiresAttackRoll": false,
+                            "atHigherLevels": {
+                                "scaleType": null,
+                                "higherLevelDefinitions": [],
+                                "additionalAttacks": [],
+                                "additionalTargets": [],
+                                "areaOfEffect": [],
+                                "duration": [],
+                                "creatures": [],
+                                "special": [],
+                                "points": []
+                            },
+                            "modifiers": [],
+                            "conditions": [],
+                            "tags": [
+                                "Detection"
+                            ],
+                            "castingTimeDescription": "",
+                            "scaleType": null,
+                            "sources": [
+                                {
+                                    "sourceId": 1,
+                                    "pageNumber": null,
+                                    "sourceType": 2
+                                },
+                                {
+                                    "sourceId": 2,
+                                    "pageNumber": 231,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "spellGroups": []
+                        },
+                        "definitionId": 0,
+                        "prepared": true,
+                        "countsAsKnownSpell": true,
+                        "usesSpellSlot": true,
+                        "castAtLevel": null,
+                        "alwaysPrepared": false,
+                        "restriction": null,
+                        "spellCastingAbilityId": null,
+                        "displayAsAttack": null,
+                        "additionalDescription": null,
+                        "castOnlyAsRitual": false,
+                        "ritualCastingType": null,
+                        "range": {
+                            "origin": "Self",
+                            "rangeValue": 0,
+                            "aoeType": "Sphere",
+                            "aoeValue": 30
+                        },
+                        "activation": {
+                            "activationTime": 1,
+                            "activationType": 1
+                        },
+                        "baseLevelAtWill": false,
+                        "atWillLimitedUseLevel": null,
+                        "isSignatureSpell": null,
+                        "componentId": 0,
+                        "componentTypeId": 0,
+                        "spellListId": null
+                    }
+                ]
             }
         ],
         "customItems": [],
@@ -5162,7 +5692,7 @@
             }
         ],
         "dateModified": "2022-03-07T22:03:14.82Z",
-        "providedFrom": "cache"
+        "providedFrom": "storage"
     },
     "pagination": null
 }

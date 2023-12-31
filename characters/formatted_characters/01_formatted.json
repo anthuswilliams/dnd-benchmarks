@@ -1,7 +1,7 @@
 {
     "character_name": "Geoffry Carde",
     "class": "Rogue",
-    "subclass": null,
+    "subclass": "null",
     "level": 1,
     "background": "Entertainer",
     "race": "Forest Gnome",
@@ -18,55 +18,55 @@
     },
     "proficiency_bonus": 2,
     "expertise": [
-        "Perception",
-        "Sleight of Hand"
+        "Sleight of Hand",
+        "Perception"
     ],
     "proficiencies": [
-        "Sleight of Hand",
-        "Performance",
-        "Acrobatics",
-        "Longsword",
-        "Intelligence Saving Throws",
-        "Thieves' Tools",
-        "Investigation",
-        "Light Armor",
         "Dexterity Saving Throws",
+        "Performance",
+        "Sleight of Hand",
+        "Rapier",
+        "Longsword",
+        "Simple Weapons",
+        "Thieves' Tools",
         "Perception",
         "Insight",
-        "Crossbow, Hand",
-        "Rapier",
-        "Simple Weapons",
+        "Acrobatics",
         "Disguise Kit",
+        "Intelligence Saving Throws",
+        "Tantan",
+        "Light Armor",
         "Shortsword",
-        "Tantan"
+        "Investigation",
+        "Crossbow, Hand"
     ],
     "languages": [
+        "Gnomish",
         "Common",
-        "Thieves' Cant",
-        "Gnomish"
+        "Thieves' Cant"
     ],
     "equipment": [
-        "Backpack",
-        "Piton",
-        "Rapier",
-        "Hammer",
         "Oil (flask)",
+        "Waterskin",
         "Crowbar",
-        "Leather",
-        "Clothes, Costume",
-        "Bell",
+        "Rope, Hempen (50 feet)",
+        "Candle",
         "Shortbow",
         "String",
+        "Hammer",
         "Dagger",
-        "Rope, Hempen (50 feet)",
-        "Thieves' Tools",
-        "Candle",
-        "Waterskin",
-        "Rations (1 day)",
-        "Arrows",
-        "Ball Bearings (bag of 1,000)",
+        "Piton",
+        "Lantern, Hooded",
         "Tinderbox",
-        "Lantern, Hooded"
+        "Arrows",
+        "Clothes, Costume",
+        "Rapier",
+        "Leather",
+        "Rations (1 day)",
+        "Backpack",
+        "Bell",
+        "Ball Bearings (bag of 1,000)",
+        "Thieves' Tools"
     ],
     "currency": {
         "cp": 0,
@@ -76,24 +76,24 @@
         "pp": 0
     },
     "class_features": [
+        "Expertise - At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.",
         "Thieves' Cant - During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly. In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.",
-        "Sneak Attack - Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon. You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll. The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.",
-        "Expertise - At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit."
+        "Sneak Attack - Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon. You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll. The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table."
     ],
     "spells": [
         "Minor Illusion - You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again. If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends. If you create an image of an object--such as a chair, muddy footprints, or a small chest--it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it. If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature."
     ],
     "racial_traits": [
-        "Size - Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.",
-        "Natural Illusionist - You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.",
-        "Gnome Cunning - You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.",
-        "Languages - You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world.",
-        "Darkvision - Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
-        "Speed - Your base walking speed is 25 feet.",
-        "Age - Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.",
-        "Ability Score Increase - Your Dexterity score increases by 1.",
         "Ability Score Increase - Your Intelligence score increases by 2.",
-        "Speak with Small Beasts - Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."
+        "Darkvision - Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+        "Natural Illusionist - You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.",
+        "Speed - Your base walking speed is 25 feet.",
+        "Size - Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.",
+        "Age - Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.",
+        "Speak with Small Beasts - Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.",
+        "Languages - You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world.",
+        "Ability Score Increase - Your Dexterity score increases by 1.",
+        "Gnome Cunning - You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
     ],
     "personality_traits": {
         "personalityTraits": "I'm a hopeless romantic, always searching for that 'special someone.' I'll settle for nothing less than perfection.",
