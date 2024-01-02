@@ -3,4 +3,5 @@ transformers
 # torch
 # torchvision 
 # torchaudio 
-openai 
+openai
+pandas
