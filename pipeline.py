@@ -57,6 +57,7 @@ def evaluate(metadata=None, start_game=None, iterations=20):
             "theme": theme,
             "setting": setting,
             "character": character.split("/")[-1].split(".")[0],
+            "judge_prompt": c.JUDGE_PROMPT,
             "score": score,
         })
 
