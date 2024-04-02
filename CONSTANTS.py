@@ -32,11 +32,18 @@ then when they roll the dice, add the proficiency bonus and the relevant ability
 To get the ability modifier, subtract 10 from the ability score, divide by 2, and round down."""
 
 JUDGE_PROMPT = """
-Please act as an impartial judge and evaluate the quality of the response provided by an
-AI assistant to the user question displayed below. Your evaluation should consider factors
-such as the helpfulness, relevance, accuracy, depth, creativity, and level of detail of
-the response. Begin your evaluation by providing a short explanation. Your explanation should be
-concise, NO MORE THAN 50 WORDS. Be as objective as possible.
-After providing your explanation, please rate the response on a scale of 1 to 10 by strictly
-following this format: "[[rating]]", for example: "Rating: [[5]]"
+Please act as an impartial judge and evaluate the accuracy of the response provided by an
+AI assistant to the user question displayed below. The user will supply the question, the correct answer,
+and the AI assistant's prediction in the following format:
+
+[Question]
+The user's question
+[Correct Answer]
+The correct answer to the user's question
+[The Start of Assistant's Answer]
+The answer the AI assistant returned
+[The End of the Assistant's Answer]
+
+If the AI assistant's answer is correct, respond with the value 1. If the AI assistant's answer is incorrect, respond with the value 0.
+Do NOT consider the assistant's helpfulness, tone, or any other factor. Consider ONLY the accuracy of the assistant's answer.
 """
