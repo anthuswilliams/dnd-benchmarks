@@ -1,0 +1,57 @@
+[
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I am wearing full plate armor. Does this impact my Swim speed?"
+            },
+            {
+                "role": "assistant",
+                "content": "The content does not specify how wearing full plate armor impacts swim speed directly. However, it is generally understood in D&D that wearing heavy armor like full plate may impose penalties to swimming due to its weight. You would typically need to consult the DM for a ruling on specific situations concerning swimming while wearing heavy armor."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I am wearing full plate armor. How does this impact my ability to make a running jump?"
+            },
+            {
+                "role": "assistant",
+                "content": "The content does not specifically mention the impact of wearing full plate armor on making a running jump. Therefore, the information provided is insufficient to answer your question."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "My Strength is 18. I will take a running jump. How far can I make it?"
+            },
+            {
+                "role": "assistant",
+                "content": "When you make a long jump while running, you can cover a number of feet up to your Strength score if you move at least 10 feet on foot immediately before the jump. With a Strength score of 18, you can jump up to 18 feet."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Can I cast Hunter's Mark on an Invisible enemy?"
+            },
+            {
+                "role": "assistant",
+                // the below is technically correct but vaguely worded. Maybe something like "It depends" or "in very specific situations" would be a better answer.
+                // realistically the answer is No 99% of the time.
+                "content": "Yes, you can cast Hunter's Mark on an invisible enemy as long as you can see the creature. The spell states, \"You choose a creature you can see within range,\" and since Hunter's Mark does not specify that the target must be visible, you can apply the mark to an invisible creature that you can see."
+                // "Yes, you can cast Hunter's Mark on an invisible enemy. The spell allows you to choose a creature you can see within range, and since the spell specifies that it must be a creature you can see, you would need to either have the ability to see the creature (like with truesight) or choose an enemy that is no longer invisible. If you are targeting an enemy that is not currently visible due to invisibility, you would need to have a way to detect its location.",
+                // "Yes, you can cast Hunter's Mark on an invisible enemy. The spell doesn't require you to see the target, as long as you know its location within range, you can still mark it as your quarry.",
+                // "Yes, you can cast Hunter's Mark on an invisible enemy. The spell allows you to choose a creature you can see within range as your target, and while you cannot see the creature if it is invisible, you can still cast it if you know the enemy's location through other means (like hearing them or anticipating their movements). However, if you can't see them at all, you won't be able to target them directly",
+                // "Yes, you can cast Hunter's Mark on an invisible enemy as long as you can see the creature. The spell states, \"You choose a creature you can see within range,\" and since Hunter's Mark does not specify that the target must be visible, you can apply the mark to an invisible creature that you can see.",
+                // "Yes, you can cast Hunter's Mark on an invisible enemy. The spell allows you to choose a creature you can see within range, and while the enemy is invisible, you can still target it. However, you must be able to determine its location or have some means of locating it.",
+            }
+        ]
+    }
+]
