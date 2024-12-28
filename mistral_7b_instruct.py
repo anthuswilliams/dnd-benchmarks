@@ -44,4 +44,4 @@ def start_game(theme, setting, character_sheet, system_message):
 if __name__ == "__main__":
     pipeline.evaluate(metadata={
         "model": "Mistral-7B-Instruct-v0.1"
-    }, start_game=start_game)
+    }, start_game=start_game, iterations=1)
