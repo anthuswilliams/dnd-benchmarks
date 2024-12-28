@@ -43,14 +43,31 @@
             },
             {
                 "role": "assistant",
-                // the below is technically correct but vaguely worded. Maybe something like "It depends" or "in very specific situations" would be a better answer.
-                // realistically the answer is No 99% of the time.
-                "content": "Yes, you can cast Hunter's Mark on an invisible enemy as long as you can see the creature. The spell states, \"You choose a creature you can see within range,\" and since Hunter's Mark does not specify that the target must be visible, you can apply the mark to an invisible creature that you can see."
-                // "Yes, you can cast Hunter's Mark on an invisible enemy. The spell allows you to choose a creature you can see within range, and since the spell specifies that it must be a creature you can see, you would need to either have the ability to see the creature (like with truesight) or choose an enemy that is no longer invisible. If you are targeting an enemy that is not currently visible due to invisibility, you would need to have a way to detect its location.",
-                // "Yes, you can cast Hunter's Mark on an invisible enemy. The spell doesn't require you to see the target, as long as you know its location within range, you can still mark it as your quarry.",
-                // "Yes, you can cast Hunter's Mark on an invisible enemy. The spell allows you to choose a creature you can see within range as your target, and while you cannot see the creature if it is invisible, you can still cast it if you know the enemy's location through other means (like hearing them or anticipating their movements). However, if you can't see them at all, you won't be able to target them directly",
-                // "Yes, you can cast Hunter's Mark on an invisible enemy as long as you can see the creature. The spell states, \"You choose a creature you can see within range,\" and since Hunter's Mark does not specify that the target must be visible, you can apply the mark to an invisible creature that you can see.",
-                // "Yes, you can cast Hunter's Mark on an invisible enemy. The spell allows you to choose a creature you can see within range, and while the enemy is invisible, you can still target it. However, you must be able to determine its location or have some means of locating it.",
+                "content": "You can only cast Hunter's Mark on a creature you can see. In most cases, you cannot see Invisible creatures. However, if you can see the creature (e.g. because of Fairy Fire or Truesight) then you can cast Hunter's Mark on it."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Can a Warlock acquire cantrips from other classes' spell list?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes, a Warlock can acquire cantrips from other classes' spell lists if they choose the Pact of the Tome feature. This allows them to learn three cantrips from any class’s spell list, and those cantrips don't count against the number of cantrips the Warlock knows."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I rolled a 27 to hit a creature with an Armor Class of 18. Was I successful?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes, your roll of 27 exceeds the creature's Armor Class of 18, so your attack hits."
             }
         ]
     }
