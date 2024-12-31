@@ -70,5 +70,139 @@
                 "content": "Yes, your roll of 27 exceeds the creature's Armor Class of 18, so your attack hits."
             }
         ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "What can I do on my turn?"
+            },
+            {
+                "role": "assistant",
+                "content": "On your turn, you can:\n\n1. Move a distance up to your speed.\n2. Take one action, which can include:\n   - **Attack** (melee or ranged)\n   - **Cast a Spell**\n   - **Dash** (gain extra movement)\n   - **Disengage** (avoid opportunity attacks)\n   - **Dodge** (focus on avoiding attacks)\n   - **Help** (aid another creature)\n   - **Hide** (attempt to conceal yourself)\n   - **Ready** (prepare an action for a trigger)\n   - **Search** (look for something)\n   - **Use an Object** (interact with an object).\n3. Communicate briefly through gestures or speech.\n4. Interact with one object or feature of the environment for free (e.g., open a door).\n\nYou can also combine your movement and action in any order you choose, and if applicable, you may take a bonus action as allowed by class features or spells."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "What is the process and difficulty class (DC) for a rogue attempting to stealthily approach an Imp?"
+            },
+            {
+                "role": "assistant",
+                "content": "?"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "What is the process for a rogue attempting to stealthily approach a Goblin?"
+            },
+            {
+                "role": "assistant",
+                "content": "?"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "What is required for a successful sneaking attempt for a Rogue at level 1?"
+            },
+            {
+                "role": "assistant",
+                "content": "A Rogue can attempt to sneak by making a Dexterity (Stealth) check. The outcome of the attempt is determined by the result of the Stealth check compared to the perception of any creatures nearby."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "What are the armor class and hit points of an Imp in D&D 5e?"
+            },
+            {
+                "role": "assistant",
+                "content": "Armor Class: 13  \nHit Points: 10 (3d4 + 3)"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Do I add DEX or STR modifiers when attacking with a shortsword?"
+            },
+            {
+                "role": "assistant",
+                "content": "You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls when making an attack with a shortsword, as it has the finesse property."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "Can I play a gnome with +2 Strength and +1 Dexterity?"
+            },
+            {
+                "role": "assistant",
+                "content": "No, the content does not list any gnome racial traits that provide an increase to Strength. Gnomes have a racial increase in Intelligence (+2) and Dexterity (+1), but not Strength."
+            }
+        ]
+    },
+    {
+        "tags": "tashas",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Can I play a gnome with +2 Strength and +1 Dexterity?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes, you may customize your Ability Score Increase trait when creating a character. Instead of the standard increases for a gnome, you can take the +2 and apply it to Strength and +1 to Dexterity."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "I want to play a character as similar as possible to a warrior during sengoku jidai. What class should I choose?"
+            },
+            {
+                "role": "assistant",
+                "content": "You should choose the Fighter class and select the Samurai subclass, which is designed to embody the qualities of a samurai, focusing on martial combat and honor."
+            }
+        ]
+    },
+    {
+        "tags": "tashas",
+        "messages": [
+            {
+                "role": "user",
+                "content": "What classes can cast Find Familiar?"
+            },
+            {
+                "role": "assistant",
+                "content": "The Find Familiar spell is available to the following classes:\n\n- Wizard\n-\n- Druid (with the Wild Companion feature)\n-Any other class, as long as you have taken a feat that allows you to cast Wizard spells (e.g. Ritual Caster)"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "user",
+                "content": "What is the difference between being grappled and being restrained?"
+            },
+            {
+                "role": "assistant",
+                "content": "Both conditions mean that a creature's speed becomes 0, and it can't benefit from any bonus to its speed. However, the restrained condition also imposes disadvantage on attack rolls and Dexterity saving throws, and attackers have advantage on attack rolls against the restrained creature."
+            }
+        ]
     }
 ]
