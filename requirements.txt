@@ -1,8 +1,10 @@
-beautifulsoup4
-transformers
+# beautifulsoup4
+# transformers
 # torch
 # torchvision 
 # torchaudio 
 openai
-langchain 
+# langchain 
 pandas
+dagster
+dagster-webserver
